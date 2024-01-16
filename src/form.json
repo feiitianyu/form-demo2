@@ -1,0 +1,10 @@
+{
+  "type": "default",
+  "components": [
+    {
+      "type": "textarea",
+      "key": "message",
+      "label": "Provide feedback"
+    }
+  ]
+}
