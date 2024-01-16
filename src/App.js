@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
-import { Segmented, Menu } from 'antd'
-import { SettingOutlined, PoundOutlined, PayCircleOutlined } from '@ant-design/icons';
-import bpmnJs from 'bpmn-js';
+import { Menu } from 'antd'
+import { PoundOutlined, PayCircleOutlined } from '@ant-design/icons';
 import BpmnModeler from 'bpmn-js/lib/Modeler';
 import 'bpmn-js/dist/assets/diagram-js.css'
 import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css'
@@ -10,12 +9,7 @@ import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css'
 import '@bpmn-io/form-js/dist/assets/form-js.css'
 import '@bpmn-io/form-js/dist/assets/form-js-editor.css'
 import '@bpmn-io/form-js/dist/assets/form-js-playground.css'
-// import propertiesPanelModule from 'bpmn-js-properties-panel';
-// import propertiesProviderModule from 'bpmn-js-properties-panel/lib/provider/camunda';
-// import camundaModdleDescriptor from 'camunda-bpmn-moddle/resources/camunda';
-// import 'bpmn-js-properties-panel/dist/assets/bpmn-js-properties-panel.css'
 import { FormPlayground } from '@bpmn-io/form-js'
-// import ReactBpmn from 'react-bpmn';
 import { xmlstr } from './diagram.js'
 import './App.css';
 import schema from './form.json'
