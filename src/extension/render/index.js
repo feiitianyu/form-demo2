@@ -7,7 +7,9 @@ class CustomFormFields {
 }
 
 
-export default {
-  __init__: [ 'feedbackButton' ],
-  feedbackButton: [ 'type', CustomFormFields ]
-};
+// export default {
+//   __init__: [ 'feedbackButton' ],
+//   feedbackButton: [ 'type', CustomFormFields ]
+// };
+
+export default CustomFormFields
